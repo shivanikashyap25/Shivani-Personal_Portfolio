@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+    <div id="header">    
+   <div class="container">
+    <nav>
+        <img src="IMAGES/shivani logo.jpeg" class="logo">
+        <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+        </ul>
+       
+    </nav>
+    <div><img src="IMAGES/SHIVANI.jpeg" class="shiv"></div>
+    
+    <div class="header-text">
+        <p>INFORMATION SCIENCE ENGINEERING </p>
+        <h1>Hi, I'm <span>M Shivani Kashyap</span></h1>
+    </div>
+   </div>
+   <!------------------ABOUT------------------->
+   <div id="ABOUT">
+    <div class="container">
+        <div class="row">
+            <div class="ABOUT-col-1">
+                <img src="IMAGES/shivani3.jpeg" class="aboutme">
+            </div>
+            <div class="ABOUT-col-2">
+                <h1 class="subtitle">IDENTITY : </h1>
+                <p>I am an organised, efficient and hard working person, and am willing to discover and accept new ideas which can be put into practice effectively.
+                    I am a good listener and learner, able to communicate well with a group and on an individual level,I am able to motivate and direct my talents and skills to meet objectives.<br>
+                    I have a good sense of humour and a pleasant approach.<br>
+                    I am a quiet and focused person who can work swiftly and effectively either alone or as part of a team.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                    <p class="tab-links"onclick="opentab('EXPERIENCE')">EXPERIENCE</p>
+                    <p class="tab-links"onclick="opentab('EDUCATION')">EDUCATION</p>
+                </div>
+                <div class="tab-contents active-tab" id="SKILLS">
+                    <ul>
+                        <li><span>C PROGRAMMING</span><BR>C Programming basics and functions</li>
+                        <li><span>DATA STRUCTURES</span><BR>Data Structures pointers,linked list trees, and grpahs</li>
+                        <li><span>MICROSOFT OFFICE</span><BR>Microsoft Office Advance Office Automation </li>
+                        <li><span>JAVA PROGRAMMING LANGUAGE</span><BR>Java Basics and Advance</li>
+                        <li><span>HTML</span><BR>CSS JavaScript Webpage</li>
+
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="EXPERIENCE">
+                    <ul>
+                        <li><span>3rd SEMESTER </span><BR>C Programming 3 Credit Subject</li>
+                        <li><span>4th SEMESTER</span><BR>Data Structures(MAIN COURSE) 3 Credit</li>
+                        <li><span>MICROSOFT OFFICE</span><BR>Summer Internship </li>
+                        <li><span>4th SEMESTER</span><BR>OOPS WITH JAVA 3 Credit Subject</li>
+                        <li><span>Currently Working</span><BR>CSS JavaScript Webpage Development</li>
+
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="EDUCATION">
+                    <ul>
+                        <li><span>2018-2019</span><BR>10th Standard BGS National Public School</li>
+                        <li><span>2020-2021</span><BR>12th Standard Presidency School </li>
+                        <li><span>2021-Current</span><BR>ENGINEERING at New Horizon College Of Engineering (NHCE) </li>
+                        
+
+
+                    </ul>
+                </div>
+            </div>
+
+    </div>
+    </div>
+    </div>
+    <!---------------------Portfolio ----------------------->
+    
+    <div id="PORTFOLIO">
+        <div class="container">
+            <h1 class="sub-title">MY PROJECTS :</h1>
+            <div class="PROJECTS">
+                <div class="project">
+                    <img src="IMAGES/IOT.jpeg">
+                    <div class="layer">
+                        <h3>MUSIC REACTIVE LED(IOT) </h3>
+                        <p>The Led glows when the sound sensor detects the sound frequency, variation can be seen the graphs.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMAGES/PMS.png">
+                    <div class="layer">
+                        <h3>PHARMACY MANAGEMENT SYSTEM(SQL & PYTHON)</h3>
+                        <p>The website where medicines and the prescription can be added, required items will be delivered and any stock shortage will be initiated.
+                        </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMAGES/NGM.png">
+                    <div class="layer">
+                        <h3>NUMBER GUESSING GAME(PYTHON) </h3>
+                        <p>The player has minimum chances to guess a particular number which is computer-generated. Clues will be given based on how far/near he/she is from that number.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">SEE MORE</a>
+        </div>
+
+    </div>
+    <!--------------------contact ------------------>
+    <div id="CONTACT">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME :</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>m.shivanikashyap2003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8618177164</p>
+                <div class="social-icon">
+                <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://in.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://telegram.org"><i class="fa-brands fa-telegram"></i></a>
+
+                </div>
+                <a href="" class="btn btn2">DOWNLOAD CV</a>
+            </div>
+            <div class="contact-right">
+
+            </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright © M SHIVANI KASHYAP (NEW HORIZON COLLEGE OF ENGINEERING BELLANDUR)</p>
+        </div>
+
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    </body>
+</html>
